@@ -11,8 +11,9 @@ def get_url():
     file1 = open('D:/py/Word_Structure_Dict.txt', 'w', encoding='utf-8')
     file1.truncate()
     file1.close()
-
-    key_word_lst = ['danyi', 'zuoyou', 'shangxia', 'zuozhongyou', 'shangzhongxia', 'youshangbaowei', 'zuoshangbaowei', 'zuoxiabaowei']
+    # 依次为单一结构,左右结构,上下结构,左中右结构,上中下结构,右上包围结构,左上包围结构,左下包围结构,上三包围结构,下三包围结构,左三包围结构,全包围结构,镶嵌结构,品字结构
+    key_word_lst = ['danyi', 'zuoyou', 'shangxia', 'zuozhongyou', 'shangzhongxia', 'youshangbaowei', 'zuoshangbaowei',
+                    'zuoxiabaowei', 'xiasanbaowei', 'shangsanbaowei', 'zuosanbaowei', 'quanbaowei', 'xiangqian', 'pinzi']
     header = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) \
             Chrome/63.0.3239.132 Safari/537.36'}
     for index, key_word in enumerate(key_word_lst):
