@@ -28,3 +28,5 @@ ProcessWithCV2将汉字图片进行对比，近似度超过阈值则写入文件
 笔画数字典为汉字的总笔画数。
 
 注：部分文件可能中文有编码问题，使用gbk编码打开即可的，VSCode可以重新保存为utf-8编码格式。
+
+![Alt](https://repobeats.axiom.co/api/embed/6a31e97dcb300359a3e776117d64ec101f95b07d.svg "Repobeats analytics image")
